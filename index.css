@@ -1,0 +1,45 @@
+body{
+    background: lightgray;
+    font-family: sans-serif;
+ }
+.btn{
+    background-color: #f627d7;
+    color:white;
+    padding: 10px;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:1800px ){
+.nav-con div,.nav-con ul{
+    display: inline-block;
+}
+.nav-con ul li{
+    display: inline-block;
+    list-style-type: none;
+
+}
+.nav-con ul li a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.nav-con ul li:hover{
+   background: lightblue;
+    
+}
+#logo{
+    font-size: 30px;
+}
+.main{
+
+    padding: auto;
+    padding-top: 10%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+}
