@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>oText web - log in</title>
+    <link rel="stylesheet" href="oText.css"/>
+    <link rel="stylesheet" href="login.css"/>
+
 </head>
 <body>
-    <h1>Under Construction</h1>
+    <div id="login-main-div">
+        <div id="log-div-con">
+              <div id="logo">oText</div>
+              <form name="loginForm">
+                  <label style="display: block;padding-top: 10px;" for="username">Username :</label> 
+                  <div><input type="text" id="username" name="username" placeholder="Enter Your Username"/></div>
+                  <label for="password">Password :</label> 
+                  <div><input type="password" id="password" name="password" placeholder="Enter Your Password"/></div>
+                  <label for="s_key">Secret Key :</label>
+                  <div><input type="password" id="s_key" name="s_key" placeholder="Enter Your Secret Key"/></div>
+                  <div><input type="submit" class="btn" onclick="validate()" value="Login"/></div>
+
+              </form>
+        </div>
+    </div>
 </body>
 </html>

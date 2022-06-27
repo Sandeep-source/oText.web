@@ -1,0 +1,67 @@
+.btn{
+   margin-top:20px;
+}
+@media screen and (max-width:1800px ){
+#login-main-div{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    transform: translate(35%,10%);
+     
+  }
+  #log-div-con{
+     box-shadow:2px 2px 2px lightgray;
+     border-radius: 10px;
+     display:inline-block;
+     padding: 50px;
+     width: 500px;
+     width: 20%;
+     background-color: white;
+  }
+  input{
+     margin: 10px 0px;
+     padding: 10px;
+     width: 100%;
+     outline: none;
+     border-radius: 3px;
+     border: none;
+     background-color: lightgray;
+  }
+ label{
+     display: block;
+     padding-top:10px ;
+ }
+}
+@media screen and (max-width:600px ){
+    #login-main-div{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        transform: translate(25%,10%);
+         
+      }
+      #log-div-con{
+         box-shadow:2px 2px 2px lightgray;
+         border-radius: 10px;
+         display:inline-block;
+         width: 70%;
+         padding: 50px;
+         width: 20%;
+         background-color: white;
+      }
+      input{
+         margin: 10px 0px;
+         padding: 10px;
+         width: 100%;
+         outline: none;
+         border-radius: 3px;
+         border: none;
+         background-color: lightgray;
+      }
+     label{
+         display: block;
+         padding-top:10px ;
+     }
+
+}
